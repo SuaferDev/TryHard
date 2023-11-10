@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".Level3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Белая берёза"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Под моим окном"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Принакрылась снегом,"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont"
+            android:textColor="#FFFFFF" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edittext11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575" />
+            <EditText
+                android:id="@+id/edittext15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="серебром."
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="На пушистых ветках"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Снежною каймой"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Распустились кисти"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:fontFamily="@font/mainfont" />
+        <LinearLayout
+            android:id="@+id/linear7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/edittext21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <EditText
+                android:id="@+id/edittext25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:gravity="center"
+                android:hint=" "
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textColorHint="#757575"
+                android:maxLength="1"
+                android:maxLines="1"
+                android:lines="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="бахромой."
+                android:textSize="24sp"
+                app:fontFamily="@font/mainfont"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageendlevel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:src="@drawable/endlevel"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/level_navigation_white_corner"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back_black"/>
+
+            <TextView
+                android:id="@+id/textlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Уровень 3"
+                android:textColor="#000000"
+                app:fontFamily="@font/mainfont"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imagehelp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/help_black"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

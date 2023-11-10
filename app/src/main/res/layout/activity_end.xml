@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".EndActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="ОГО!"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_marginBottom="20sp"
+            android:textColor="#FFFFFF"
+            app:fontFamily="@font/mainfont"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Поздравляем с прохождением всех уровней. Вы можете оставить отзыв, поддержав "
+            android:textColor="#FFFFFF"
+            app:fontFamily="@font/mainfont"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17dp"
+            android:paddingTop="2dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/buttonToMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Вернутьcя в меню"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:background="#15FFFFFF"
+                android:layout_marginBottom="20sp"
+                android:textColor="#FFFFFF"
+                app:fontFamily="@font/mainfont"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

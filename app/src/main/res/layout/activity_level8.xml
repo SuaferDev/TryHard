@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".Level8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/letter1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="T"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="R"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Y"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="H"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="A"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="R"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+                <TextView
+                    android:id="@+id/letter7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="D"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:textColor="#607D8B" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Y"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="K"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="D"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="S"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="D"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="R"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Y"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                app:fontFamily="@font/mainfont"
+                android:textStyle="bold"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Q"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="F"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Q"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="h"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="U"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="P"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="L"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="K"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="q"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="I"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="A"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="K"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Z"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Q"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="m"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="y"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="B"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Z"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="f"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="C"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="F"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textview29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="R"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="H"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="W"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="T"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="M"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="D"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:id="@+id/textview35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Q"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/level_navigation_white_corner"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back_black"/>
+
+            <TextView
+                android:id="@+id/textlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Уровень 8"
+                android:textColor="#000000"
+                app:fontFamily="@font/mainfont"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imagehelp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/help_black"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

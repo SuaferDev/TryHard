@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Menu"
+    android:theme="@style/MyNavBarStyle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/texttry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:gravity="left | bottom"
+                android:textColor="#FFFFFF"
+                app:fontFamily="@font/mainfont"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cursor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="60sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:fontFamily="@font/mainfont"
+                android:text="▌" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/texthard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/mainfont"/>
+
+                <TextView
+                    android:id="@+id/cursor2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="80sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/mainfont"
+                    android:text="▌" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17dp"
+            android:paddingTop="2dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="8dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/continietext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Продолжить"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:background="#15FFFFFF"
+                android:layout_marginBottom="20sp"
+                android:textColor="#FFFFFF"
+                app:fontFamily="@font/mainfont"/>
+            <TextView
+                android:id="@+id/alllevelstext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Все уровни"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:background="#15FFFFFF"
+                android:layout_marginBottom="20sp"
+                android:textColor="#FFFFFF"
+                app:fontFamily="@font/mainfont"/>
+            <TextView
+                android:id="@+id/settingtextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:text=""
+                android:textSize="0sp"
+                android:gravity="center"
+                android:background="#90000000"
+                android:layout_marginBottom="0sp"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center_horizontal"
+            android:text="By Syafer, 2023 year, BETA TEST"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#50FFFFFF"
+            app:fontFamily="@font/mainfont"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

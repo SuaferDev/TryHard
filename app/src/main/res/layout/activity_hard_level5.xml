@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".HardLevel5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/imageObject"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/object"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity=""
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageLeft"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="6dp"
+                    android:rotation="180"
+                    android:src="@drawable/level5_button"
+                    android:background="@drawable/button_level5"/>
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textX1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="X0"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/mainfont"
+                        android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textY1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Y0"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/mainfont"
+                        android:textColor="#FFFFFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="-&gt;"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/mainfont"
+                        android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textX2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="X2"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/mainfont"
+                        android:textColor="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/textY2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="Y2"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/mainfont"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageRight"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="6dp"
+                    android:src="@drawable/level5_button"
+                    android:background="@drawable/button_level5"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageDown"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="6dp"
+                    android:rotation="270"
+                    android:src="@drawable/level5_button"
+                    android:background="@drawable/button_level5"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/textCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="×1"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    app:fontFamily="@font/mainfont"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageUp"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:padding="6dp"
+                    android:rotation="90"
+                    android:src="@drawable/level5_button"
+                    android:background="@drawable/button_level5"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/level_navigation_white_corner"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back_black"/>
+
+            <TextView
+                android:id="@+id/textlevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Уровень 5 {Усложнённый}"
+                android:textColor="#000000"
+                app:fontFamily="@font/mainfont"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

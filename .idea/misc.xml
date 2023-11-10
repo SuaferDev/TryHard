@@ -1,0 +1,67 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable-v24/level_background.xml" value="0.1995" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/back_black.xml" value="0.1" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/button_level5.xml" value="0.201" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/confetti.xml" value="0.1645" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/corner_classic_level.xml" value="0.188" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/corner_hard_level.xml" value="0.185" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1195" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/level_background.xml" value="0.184" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/level_navigation_black_corner.xml" value="0.2465" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/level_navigation_white_corner.xml" value="0.2465" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/reset_button.xml" value="0.162" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/use_help_off.xml" value="0.1715" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/drawable/use_help_on.xml" value="0.1715" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_confetti.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_end.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_fullscreen.xml" value="0.2359375" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level1.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level10.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level11.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level12.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level2.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level3.xml" value="0.264" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level4.xml" value="0.2" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level5.xml" value="0.21875" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level6.xml" value="0.21875" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level7.xml" value="0.2" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level8.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_hard_level9.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level1.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level10.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level11.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level12.xml" value="0.2" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level2.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level3.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level4.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level5.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level6.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level7.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level8.xml" value="0.2359375" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level9.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level_final.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_level_menu.xml" value="0.25" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_menu.xml" value="0.21721311475409835" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/activity_show_help.xml" value="0.234375" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_dialog_clue.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_dialog_exite.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_dialog_help.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_dialog_reset.xml" value="0.2012820512820513" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_reset.xml" value="0.1" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/layout/custom_toast.xml" value="0.175" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1645" />
+        <entry key="..\:/Users/nikis/AndroidStudioProjects/TryHard2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1645" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
